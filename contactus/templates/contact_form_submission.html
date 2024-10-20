@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .email-content { border: 1px solid #ddd; padding: 20px; border-radius: 5px; }
+        .email-content h2 { margin-top: 0; }
+    </style>
+</head>
+<body>
+    <div class="email-content">
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Subject:</strong> {{ subject }}</p>
+        <p><strong>Message:</strong> {{ message }}</p>
+        <p><strong>From:</strong> {{ email }}</p>
+    </div>
+</body>
+</html>
